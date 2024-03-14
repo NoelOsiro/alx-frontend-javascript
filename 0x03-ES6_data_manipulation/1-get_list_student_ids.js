@@ -1,11 +1,7 @@
-// Exercise: 1. Get list of student IDs
-// Description: Write a function named getListStudentIds that returns an array of ids from a list of objects.
-const getListStudentIds = (students) => {
-  // Check if the input is an array
-  if (!Array.isArray(students)) {
+export default function getListStudentIds(students) {
+    // check arg is an array before using map
+    if (Array.isArray(students)) {
+      return students.map((items) => items.id);
+    }
     return [];
   }
-  // Map over the array of objects and extract the ids
-  return students.map((student) => student.id);
-};
-export default getListStudentIds();

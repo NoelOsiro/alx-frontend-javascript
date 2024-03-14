@@ -1,4 +1,7 @@
-// Write a function named getStudentsByLocation that returns an array of students who are located in a specific city.
-const getStudentsByLocation = (students, city) => (
-  students.filter((student) => student.location === city));
-export default getStudentsByLocation;
+export default function getStudentsByLocation(students, city) {
+    // check arg is an array before using filter
+    if (Object.getPrototypeOf(students) === Array.prototype) {
+      return students.filter((items) => items.location === city);
+    }
+    return [];
+  }
