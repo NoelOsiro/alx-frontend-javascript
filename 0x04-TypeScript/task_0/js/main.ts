@@ -6,17 +6,17 @@ interface Student {
   }
   
   const student1: Student = {
-    firstName: "Larry",
-    lastName: "Hudson",
+    firstName: "Martin",
+    lastName: "Lawrence",
     age: 32,
     location: "San Francisco",
   };
   
   const student2: Student = {
-    firstName: "Karla",
-    lastName: "Dermond",
+    firstName: "Marco",
+    lastName: "Verratti",
     age: 26,
-    location: "New York",
+    location: "PSG",
   };
   
   const studentsList: Array<Student> = [student1, student2];
@@ -31,8 +31,8 @@ interface Student {
   const cell1Head: HTMLTableCellElement = rowHead.insertCell(0);
   const cell2Head: HTMLTableCellElement = rowHead.insertCell(1);
   
-  cell1Head.innerHTML = "firstName";
-  cell2Head.innerHTML = "location";
+  cell1Head.innerHTML = "First Name";
+  cell2Head.innerHTML = "Location";
   
   table.append(thead);
   
