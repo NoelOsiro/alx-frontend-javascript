@@ -1,4 +1,4 @@
-import getListStudents from '../0-get_list_students';
+import getListStudents from '../0x03-ES6_data_manipulation/0-get_list_students';
 
 /**
  * Retrieve a list of students.
