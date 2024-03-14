@@ -1,5 +1,5 @@
 // Import the function
-import getListStudentIds from "./getListStudentIds.js";
+import getListStudentIds from "../1-get_list_student_ids.js";
 
 // Test cases
 describe("getListStudentIds function", () => {
