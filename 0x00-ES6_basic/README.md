@@ -1,5 +1,3 @@
-Here's how you can structure the README.md file for the provided tasks:
-
 ---
 
 # 0x00. ES6 Basics
