@@ -1,44 +1,44 @@
 ---
 
-# 0x00. ES6 Basics
+# 0x00. ES6 Basics 🔧
 
 ## Description
 This project covers various aspects of ES6 in JavaScript, including modern JavaScript concepts and software linting.
 
 ## Author
-Johann Kerbrat, Engineering Manager at Uber Works
+Johann Kerbrat, Engineering Manager at Uber Works 👨‍💻
 
 ## Project Details
-- Weight: 1
-- Project Start: Dec 18, 2022 9:00 PM
-- Project End: Dec 19, 2022 9:00 PM
-- Release Date: Dec 19, 2022 3:00 AM
-- Auto Review: Launches at the deadline
+- Weight: 1 ⚖️
+- Project Start: Dec 18, 2022 9:00 PM ⏰
+- Project End: Dec 19, 2022 9:00 PM ⏰
+- Release Date: Dec 19, 2022 3:00 AM 🚀
+- Auto Review: Launches at the deadline 🛠️
 
 ## Concepts Covered
-- Modern Javascript
-- Software Linter
+- Modern Javascript 🌐
+- Software Linter 🧹
 
 ## Learning Objectives
 By completing this project, you will be able to:
-- Understand what ES6 is and its new features
-- Differentiate between constants and variables
-- Implement block-scoped variables
-- Utilize arrow functions and default function parameters
-- Use rest and spread function parameters
-- Apply string templating in ES6
-- Create objects and their properties in ES6
-- Understand iterators and for-of loops
+- Understand what ES6 is and its new features 💡
+- Differentiate between constants and variables 🔄
+- Implement block-scoped variables 🔒
+- Utilize arrow functions and default function parameters ➡️
+- Use rest and spread function parameters 🔄
+- Apply string templating in ES6 🎨
+- Create objects and their properties in ES6 🛠️
+- Understand iterators and for-of loops 🔁
 
 ## Requirements
-- Ubuntu 18.04 LTS with NodeJS 12.11.x
-- Allowed editors: vi, vim, emacs, Visual Studio Code
-- Files should end with a new line
-- Include a README.md file at the root of the project folder
-- Code should use the .js extension
-- Testing with Jest Testing Framework
-- Code analysis with ESLint using specific rules provided
-- All functions must be exported
+- Ubuntu 18.04 LTS with NodeJS 12.11.x 🐧
+- Allowed editors: vi, vim, emacs, Visual Studio Code ⌨️
+- Files should end with a new line 📝
+- Include a README.md file at the root of the project folder 📂
+- Code should use the .js extension 📄
+- Testing with Jest Testing Framework 🧪
+- Code analysis with ESLint using specific rules provided 📋
+- All functions must be exported 🚚
 
 ## Setup Instructions
 1. Install NodeJS 12.11.x:
@@ -62,7 +62,7 @@ By completing this project, you will be able to:
    - [babel.config.js](./babel.config.js)
    - [.eslintrc.js](./.eslintrc.js)
 
-4. Run `npm install` in the terminal of your project folder to install necessary dependencies.
+4. Run `npm install` in the terminal of your project folder to install necessary dependencies. ⚙️
 
 ## Tasks
 1. [Const or let?](./0-constants.js)
